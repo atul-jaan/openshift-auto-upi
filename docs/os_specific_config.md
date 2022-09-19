@@ -44,7 +44,7 @@ $ subscription-manager repos --enable ansible-2-for-rhel-8-x86_64-rpms
 If installing OpenShift on bare metal, the *pyghmi* library is required on Helper host. This library implements the IPMI protocol which is used to control bare metal machines during the OpenShift installation. To enable a yum repository which contains the *python3-pyghmi* rpm package:
 
 ```
-$ subscription-manager repos --enable openstack-15-for-rhel-8-x86_64-rpms
+$ subscription-manager repos --enable openstack-15-tools-for-rhel-8-x86_64-rpms
 ```
 
 If installing OpenShift on oVirt (RHV), the Python SDK for oVirt Engine API is required on Helper host. To enable a yum repository which contains the *python3-ovirt-engine-sdk4* rpm package:
